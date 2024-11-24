@@ -1,3 +1,40 @@
 .menu-area {
 	background-color: #F2F2F2;
 }
+
+
+
+
+
+
+
+
+
+.single-menu {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid #ddd;
+  }
+  .single-menu img {
+    max-width: 110px;
+    margin-right: 20px;
+    transition: .3s;
+  }
+  .menu-content h4 {
+    font-size: 22px;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .menu-content h4 span {
+    float: right;
+    font-weight: 600;
+    color: #ff3636;
+  }
+  .single-menu:hover img {
+    border-radius: 50%;
+    transition: .3s;
+  }
