@@ -22,6 +22,43 @@ a {
   transition: 0.3s;
 }
 
+/* Banner Background overlay color */
+.overlay-bg {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+.overlay-bg:before {
+  position: absolute;
+  content: "";
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Banner Button CSS */
+.btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.btn.btn-box {
+  background-color: #ff3636;
+}
+.btn:hover {
+  background-color: #333;
+  transition: 0.3s;
+}
+
 /* Flex CSS */
 .d-flex {
   display: flex;
@@ -57,8 +94,8 @@ a {
 }
 
 /* align-items CSS */
-.align-normal {
-  align-items: normal;
+.align-center {
+  align-items: center;
 }
 
 .align-stretch {
@@ -346,4 +383,45 @@ span {
     width: 100%;
     padding: 0 15px;
   }
+}
+.header_area {
+  padding: 22px 0;
+}
+.header_area .header_menu ul li a {
+  display: block;
+  margin-left: 25px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+}
+.header_area .header_menu ul li a:hover {
+  color: #ff3636;
+  transition: 0.2s;
+}
+
+.banner_area .single_banner {
+  position: relative;
+  height: 100vh;
+}
+.banner_area .single_banner .banner_content {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner_area .single_banner .banner_content h5 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.banner_area .single_banner .banner_content h2 {
+  font-size: 60px;
+  text-transform: capitalize;
+  margin: 20px 0;
+  font-weight: 800;
+}
+.banner_area .single_banner .banner_content .banner-btn a {
+  margin: 30px 10px 0;
 }/*# sourceMappingURL=style.css.map */

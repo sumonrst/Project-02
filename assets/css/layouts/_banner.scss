@@ -1,0 +1,49 @@
+
+.banner_area{
+    .single_banner {
+        position: relative;
+        height: 100vh;
+        .banner_content {
+            height: 100vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h5 {
+                font-size: 30px;
+                text-transform: capitalize;
+                font-weight: 700;
+            }
+            h2 {
+                font-size: 60px;
+                text-transform: capitalize;
+                margin: 20px 0;
+                font-weight: 800;
+            }
+            .banner-btn{
+                a {
+                    margin: 30px 10px 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
