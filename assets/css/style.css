@@ -386,6 +386,10 @@ span {
 }
 .header_area {
   padding: 22px 0;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  right: 0;
 }
 .header_area .header_menu ul li a {
   display: block;
@@ -393,6 +397,7 @@ span {
   text-transform: capitalize;
   font-weight: 500;
   font-size: 18px;
+  color: #fff;
 }
 .header_area .header_menu ul li a:hover {
   color: #ff3636;
