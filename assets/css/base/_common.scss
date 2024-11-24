@@ -1,0 +1,47 @@
+
+@import 'variables';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: $black;
+    transition: .3s;
+}
+
+
+/* Flex CSS */
+$flex:flex, inline-flex;
+@each $value in $flex{
+    .d-#{$value}{
+        display: $value;
+    }
+} 
+
+/* Justify CSS */
+$justify:start, end, center, space-between, space-around, space-evenly, ;
+@each $value in $justify{
+    .justify-#{$value}{
+        justify-content: $value;
+    }
+}
+
+
+/* align-items CSS */
+$align-items:normal, stretch, flex-start, flex-end, baseline;
+@each $value in $align-items{
+    .align-#{$value}{
+        align-items: $value;
+    }
+}

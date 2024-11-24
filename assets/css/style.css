@@ -1,1 +1,349 @@
-/*# sourceMappingURL=style.css.map */
+/* Theme color */
+/* Common Color */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s;
+}
+
+/* Flex CSS */
+.d-flex {
+  display: flex;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+/* Justify CSS */
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+/* align-items CSS */
+.align-normal {
+  align-items: normal;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-flex-start {
+  align-items: flex-start;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Theme Custom Heading */
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 40px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+span {
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+/* Theme Custom Padding */
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.pb-90 {
+  padding-bottom: 90px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+/* Theme color */
+/* Common Color */
+.container {
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+  .col-xxl-1 {
+    width: 8.3333333333%;
+    padding: 0 15px;
+  }
+  .col-xxl-2 {
+    width: 16.6666666667%;
+    padding: 0 15px;
+  }
+  .col-xxl-3 {
+    width: 25%;
+    padding: 0 15px;
+  }
+  .col-xxl-4 {
+    width: 33.3333333333%;
+    padding: 0 15px;
+  }
+  .col-xxl-5 {
+    width: 41.6666666667%;
+    padding: 0 15px;
+  }
+  .col-xxl-6 {
+    width: 50%;
+    padding: 0 15px;
+  }
+  .col-xxl-7 {
+    width: 58.3333333333%;
+    padding: 0 15px;
+  }
+  .col-xxl-8 {
+    width: 66.6666666667%;
+    padding: 0 15px;
+  }
+  .col-xxl-9 {
+    width: 75%;
+    padding: 0 15px;
+  }
+  .col-xxl-10 {
+    width: 83.3333333333%;
+    padding: 0 15px;
+  }
+  .col-xxl-11 {
+    width: 91.6666666667%;
+    padding: 0 15px;
+  }
+  .col-xxl-12 {
+    width: 100%;
+    padding: 0 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

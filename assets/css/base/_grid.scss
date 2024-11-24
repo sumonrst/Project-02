@@ -1,0 +1,25 @@
+
+.container{
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+}
+
+$grid_columns: 12;
+$grid_xxl_brackpoint: 1400px;
+@media (min-width: $grid_xxl_brackpoint) {
+    .container{
+        width: 1320px;
+    }
+    @for $i from 1 through 12{
+        .col-xxl-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
