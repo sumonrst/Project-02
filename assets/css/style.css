@@ -399,6 +399,32 @@ span {
   transition: 0.2s;
 }
 
+.banner_area .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ff3636;
+  border: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 68px;
+  z-index: 2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.banner_area .slick-arrow:hover {
+  background-color: #333;
+}
+.banner_area .slick-arrow.slick-prev {
+  right: 50px;
+}
+.banner_area .slick-arrow.slick-next {
+  left: 50px;
+}
+.banner_area .slick-arrow i {
+  color: #fff;
+  font-size: 22px;
+}
 .banner_area .single_banner {
   position: relative;
   height: 100vh;
