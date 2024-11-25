@@ -677,4 +677,64 @@ span {
   display: block;
   text-transform: lowercase;
   font-size: 16px;
+}
+
+.testimonial-area {
+  color: #fff;
+}
+
+.single-testimonial {
+  text-align: center;
+  padding: 0 26px;
+}
+
+.single-testimonial p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.single-testimonial img {
+  border-radius: 50%;
+  border: 2px dashed #ddd;
+  width: 89px;
+  margin: 0 auto;
+}
+
+.single-testimonial h4 {
+  font-size: 23px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.single-testimonial h4 span {
+  display: block;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  display: inline-block;
+  transform: translateX(-50%);
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  /*! padding: 8px; */
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  line-height: 10px;
+  text-indent: -9999px;
+  width: 18px;
+  height: 18px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #ff3636;
+  border: 0;
 }/*# sourceMappingURL=style.css.map */
