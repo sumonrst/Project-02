@@ -1,14 +1,14 @@
 # Theme-Name: KhawaDawa
 <h5> Project Live Link : https://sumonrst.github.io/Project-02/</h5>
--I have use below technology for this Theme
+-I have use below technology for this Theme<br>
 - html5<br>
-- CSS3,
-- Jquery Plugin ,
-- Responsive,
-- Javascript,
-- Sticky Nav Menu,
-- Nav Menu Scroling Plugin,
-- Magnific-popup ,
-- Slick Slider,
+- CSS3<br>
+- Jquery Plugin <br>
+- Responsive<br>
+- Javascript<br>
+- Sticky Nav Menu<br>
+- Nav Menu Scroling Plugin<br>
+- Magnific-popup<br>
+- Slick Slider<br>
 - Fontawesome Icon
 <img src="assets/images/screenshort-resturent.png">
