@@ -798,8 +798,8 @@ span {
 }
 .special-food-area .fooed-image {
   overflow: hidden;
-  transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
+  transform: translatex(0px);
+  animation: float2 6s ease-in-out infinite;
 }
 .special-food-area .fooed-image food-image {
   width: 100%;
@@ -808,4 +808,16 @@ span {
 .special-food-area .fooed-image img {
   width: 471px;
   float: right;
+}
+
+@keyframes float2 {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-20px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
 }/*# sourceMappingURL=style.css.map */
