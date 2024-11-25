@@ -1,0 +1,39 @@
+.special-food-area {
+	background-size: cover;
+	background-position: center;
+    .special-food-content{
+        h5 {
+            font-size: 20px;
+            color: #ff3636;
+            font-weight: 700;
+        }
+        h4 {
+            font-size: 50px;
+            margin: 40px 0;
+            color: #fff;
+            font-weight: 800;
+        }
+        h6 {
+            font-size: 20px;
+            color: #FC791A;
+            text-transform: capitalize;
+            margin-bottom: 40px;
+        }
+        .btn {
+            border-radius: 0;
+        }
+    }
+    .fooed-image{
+        overflow: hidden;
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        food-image { width: 100%; height: auto; }
+        img {
+            width: 471px;
+            float: right;
+        }
+
+    }
+}
+
+
