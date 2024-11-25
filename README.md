@@ -1,7 +1,7 @@
 # Theme-Name: KhawaDawa
 <h5> Project Live Link : https://sumonrst.github.io/Project-02/</h5>
 -I have use below technology for this Theme
-- html5,
+- html5<br>
 - CSS3,
 - Jquery Plugin ,
 - Responsive,
