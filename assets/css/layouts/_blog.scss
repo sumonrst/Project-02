@@ -3,4 +3,88 @@
     .title{
         margin-bottom: 70px;
     }
+    .single-blog{
+        &:hover .image {
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+        .blog-image {
+            overflow: hidden;
+            .image {
+                transition: 1s ease;
+            }
+        }
+        .blog-content{
+            padding: 25px;
+            background-color: #fff;
+            a{
+                &:hover {
+                    color: #ff3636 !important;
+                }
+            }
+            h4 {
+                font-size: 20px;
+                font-weight: 700;
+                margin: 20px 0;
+            }
+            .btn {
+                padding: 0;
+                border-radius: 0;
+                display: inline-block;
+                color: #646262;
+                font-size: 16px;
+                font-weight: 600;
+                text-transform: capitalize;
+                .btn:hover{
+                    color: #ff3636;
+                }
+                &.btn-box{
+                    background-color: transparent;
+                }
+            }
+
+            .blog-meta {
+                display: flex;
+                align-items: center;
+                gap: 28px;
+                .item1 {
+                    background-color: #ff3636;
+                    padding: 10px 20px;
+                    color: #fff;
+                    h6 {
+                        font-size: 24px;
+                        font-weight: 800;
+                    }
+                    p {
+                        text-transform: capitalize;
+                        font-size: 12px;
+                    }
+                }
+                .item2{
+                    .icon {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        i {
+                            color: #ff3636;
+                        }
+                        span {
+                            font-size: 15px;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+                .item3{
+                    .icon i {
+                        color: #ff3636;
+                    }
+                }
+            }
+        }
+    }
 }
+
+
+
+
+
