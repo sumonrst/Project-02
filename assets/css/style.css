@@ -566,37 +566,26 @@ span {
   color: #ff3636;
 }
 
-.single-service h4 {
-  font-size: 23px;
-  text-transform: capitalize;
-  font-weight: 700;
-  margin: 14px 0;
+.services-area .title {
+  text-align: center;
+  margin-bottom: 70px;
 }
-
-.single-service {
+.services-area .single-service {
   text-align: center;
   border: 1px solid #ddd;
   padding: 50px 26px;
   margin-bottom: 31px;
   position: relative;
 }
-
-.title {
-  text-align: center;
-  margin-bottom: 70px;
+.services-area .single-service:hover:before {
+  width: 100%;
+  transition: 0.3s;
 }
-
-.single-service img {
-  width: 70px;
-  height: 70px;
-  box-sizing: border-box;
-  border: 5px white solid;
-  overflow: hidden;
-  transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
+.services-area .single-service:hover:after {
+  width: 100%;
+  transition: 0.3s;
 }
-
-.single-service::before {
+.services-area .single-service:before {
   position: absolute;
   content: "";
   background-color: #ff3636;
@@ -606,8 +595,7 @@ span {
   left: 0;
   transition: 0.3s;
 }
-
-.single-service::after {
+.services-area .single-service:after {
   position: absolute;
   content: "";
   background-color: #ff3636;
@@ -617,15 +605,20 @@ span {
   right: 0;
   transition: 0.3s;
 }
-
-.single-service:hover:before {
-  width: 100%;
-  transition: 0.3s;
+.services-area .single-service h4 {
+  font-size: 23px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 14px 0;
 }
-
-.single-service:hover:after {
-  width: 100%;
-  transition: 0.3s;
+.services-area .single-service img {
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+  border: 5px white solid;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -638,4 +631,50 @@ span {
   100% {
     transform: translatey(0px);
   }
+}
+.team-area {
+  background-color: #F2F2F2;
+}
+.team-area .title {
+  margin-bottom: 70px;
+}
+.team-area .single-team {
+  position: relative;
+  overflow: hidden;
+}
+.team-area .single-team:hover .image {
+  transform: scale(1.8);
+  transition: 1s ease;
+}
+.team-area .single-team:hover .team-content {
+  bottom: 0px;
+  transition: 1s ease;
+}
+.team-area .single-team .team-image {
+  overflow: hidden;
+}
+.team-area .single-team .team-image .image {
+  transition: 1s ease;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+.team-area .single-team .team-content {
+  background-color: rgba(51, 51, 51, 0.7215686275);
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: -97px;
+  left: 0;
+  transition: 1s ease;
+}
+.team-area .single-team .team-content h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.team-area .single-team .team-content h4 span {
+  display: block;
+  text-transform: lowercase;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
