@@ -909,6 +909,7 @@ span {
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
+  margin-bottom: 70px;
 }
 .footer-area .footer-cta .single-cta {
   display: flex;
@@ -934,4 +935,25 @@ span {
   display: block;
   font-size: 15px;
   text-transform: capitalize;
+}
+
+.single-widget {
+  color: #fff;
+}
+
+.single-widget h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.single-widget ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.list-area li {
+  padding-bottom: 17px;
 }/*# sourceMappingURL=style.css.map */
