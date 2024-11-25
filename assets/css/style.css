@@ -820,4 +820,10 @@ span {
   100% {
     transform: translatex(0px);
   }
+}
+.blog-area {
+  background-color: #F2F2F2;
+}
+.blog-area .title {
+  margin-bottom: 70px;
 }/*# sourceMappingURL=style.css.map */
