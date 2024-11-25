@@ -973,4 +973,15 @@ span {
 
 .single-widget p {
   margin: 40px 0;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 19px 13px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.newsletter button {
+  background-color: tomato;
 }/*# sourceMappingURL=style.css.map */
