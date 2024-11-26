@@ -7,7 +7,7 @@
         position: relative;
         overflow: hidden;
         &:hover .image {
-            transform: scale(1.8);
+            transform: scale(1.1);
             transition: 1s ease;
         }
         &:hover .team-content {
@@ -18,7 +18,6 @@
             overflow: hidden;
             .image {
                 transition: 1s ease;
-                border: 3px solid #ddd;
                 width: 100%;
             }
         }
