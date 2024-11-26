@@ -1301,20 +1301,7 @@ span {
 .offer-area {
   background-color: #F2F2F2;
 }
-.offer-area .offer-card .btn {
-  padding: 10px 12px;
-  font-size: 14px;
-}
-
-.offer-content {
-  color: #fff;
-}
-
-.offer-content h4 {
-  font-size: 18px;
-}
-
-.offer-card {
+.offer-area .offer-card {
   display: flex;
   background-size: cover;
   background-position: center;
@@ -1322,16 +1309,44 @@ span {
   gap: 10px;
   padding: 16px 24px;
 }
-
-.offer-thumbnail {
+.offer-area .offer-card .btn {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.offer-area .offer-card .btn.btn-box {
+  background-color: #333;
+}
+.offer-area .offer-card .offer-content {
+  color: #fff;
+}
+.offer-area .offer-card .offer-content h4 {
+  font-size: 18px;
+  margin: 6px 0;
+}
+.offer-area .offer-card .offer-content h5 {
+  font-size: 14px;
+}
+.offer-area .offer-card .offer-content p {
+  margin: 9px 0;
+}
+.offer-area .offer-card .offer-content a {
+  text-transform: uppercase;
+  font-size: 13px !important;
+}
+.offer-area .offer-card .offer-content .btn-bg {
+  background-color: #ff3636 !important;
+}
+.offer-area .offer-card .offer-thumbnail {
   position: relative;
 }
-
-.shape {
+.offer-area .offer-card .offer-thumbnail .shape {
   position: absolute;
-  top: 0;
+  top: -19px;
+  left: -59px;
 }
-
-.offer-thumbnail img {
+.offer-area .offer-card .offer-thumbnail .shape .offer-image {
+  width: 68px;
+}
+.offer-area .offer-card .offer-thumbnail img {
   width: 140px;
 }/*# sourceMappingURL=style.css.map */
