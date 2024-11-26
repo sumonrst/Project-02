@@ -810,6 +810,62 @@ span {
   float: right;
 }
 
+.cta-wrap {
+  position: relative;
+}
+
+.cta-shape-1 {
+  position: absolute;
+  top: -88px;
+  left: 16px;
+  transform: translatex(0px);
+  animation: shape-1 6s ease-in-out infinite;
+}
+.cta-shape-1 shape-image-1 {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes shape-1 {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-20px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+.scecial-food-area2 {
+  position: relative;
+}
+
+.shape1 {
+  position: absolute;
+  left: 73px;
+  top: 68px;
+}
+
+.shape {
+  animation: rotation 10s infinite linear;
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+}
+
+@keyframes float2 {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-20px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
 @keyframes float2 {
   0% {
     transform: translatex(0px);
