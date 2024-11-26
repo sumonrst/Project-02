@@ -496,6 +496,10 @@ span {
   margin: 30px 10px 0;
 }
 
+.about-area {
+  /* About Shape area start */
+  /* About Shape area end */
+}
 .about-area .about-content p {
   margin-bottom: 25px;
 }
@@ -515,7 +519,57 @@ span {
   left: 206px;
   bottom: -80px;
 }
+.about-area .about-wrap {
+  position: relative;
+}
+.about-area .about-wrap .about-shape-1 {
+  position: absolute;
+  bottom: -77px;
+  transform: translateY(0px);
+  animation: about-shape-1 6s ease-in-out infinite;
+}
+.about-area .about-wrap .about-shape-1 about-shape-image-1 {
+  width: 100%;
+  height: auto;
+}
+.about-area .about-wrap .about-shape-2 {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  transform: translatex(0px);
+  animation: about-shape-2 6s ease-in-out infinite;
+}
+.about-area .about-wrap .about-shape-2 about-shape-image-2 {
+  width: 100%;
+  height: auto;
+}
 
+/* About Shape-image-area-1 start */
+@keyframes about-shape-1 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* About Shape-image-area-1 end */
+/* About Shape-image-area-2 start */
+@keyframes about-shape-2 {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-20px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+/* About Shape-image-area-2 end */
 .menu-area {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
