@@ -53,6 +53,14 @@
             animation: shape-2 6s ease-in-out infinite;
             shape-image-2 { width: 100%; height: auto;}
         }
+        .cta-shape-3 {
+            position: absolute;
+            right: 0;
+            bottom: -87px;
+            transform: translateY(0px);
+            animation: shape-3 6s ease-in-out infinite;
+            shape-image-3 { width: 100%; height: auto; }
+        }
     } 
 }
 
@@ -90,6 +98,20 @@
     }
 }
 /* Special Food shape-image-2 area star */ 
+
+/* Special Food shape-image-3 area star */ 
+@keyframes shape-3{
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* Special Food shape-image-3 area end */ 
 
 
 

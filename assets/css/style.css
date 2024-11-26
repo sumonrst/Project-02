@@ -835,6 +835,17 @@ span {
   width: 100%;
   height: auto;
 }
+.special-food-area .cta-wrap .cta-shape-3 {
+  position: absolute;
+  right: 0;
+  bottom: -87px;
+  transform: translateY(0px);
+  animation: shape-3 6s ease-in-out infinite;
+}
+.special-food-area .cta-wrap .cta-shape-3 shape-image-3 {
+  width: 100%;
+  height: auto;
+}
 
 /* Special Food shape-image-1 area start */
 @keyframes shape-1 {
@@ -862,6 +873,19 @@ span {
   }
 }
 /* Special Food shape-image-2 area star */
+/* Special Food shape-image-3 area star */
+@keyframes shape-3 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* Special Food shape-image-3 area end */
 .scecial-food-area2 {
   position: relative;
 }
