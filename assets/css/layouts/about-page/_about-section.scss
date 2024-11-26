@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-us-wrapper {
+    position: relative;
+  }
+  .about-bg-shape-1 {
+    position: absolute;
+    right: 0;
+  }
+  .shape-top-1 {
+    position: absolute;
+    top: 0;
+  }
+  .shape-top-2 {
+    position: absolute;
+    top: 0;
+  }
+
+  
+  .about-content {
+	position: absolute;
+	top: 194px;
+	text-align: center;
+	right: 650px;
+}
+  .about-content h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ff3636;
+    font-weight: 700;
+  }
+  .about-content h4 {
+	font-size: 42px;
+	font-weight: 800;
+	text-transform: capitalize;
+	margin: 21px 0;
+	line-height: 53px;
+}
+  .about-content p {
+    width: 607px;
+    margin-bottom: 20px;
+  }
