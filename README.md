@@ -10,6 +10,6 @@
 - Nav Menu Scroling Plugin<br>
 - Magnific-popup<br>
 - Slick Slider<br>
-- Fontawesome Icon
+- Fontawesome Icon<br>
 - @keyframes Animation
 <img src="assets/images/screenshort-resturent.png">

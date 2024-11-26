@@ -604,6 +604,10 @@ span {
   color: #ff3636;
 }
 
+.cta-area {
+  /* Cta Discount Shape area start */
+  /* Cta Discount Shape area end */
+}
 .cta-area .title {
   color: #fff;
   margin-bottom: 0;
@@ -619,7 +623,48 @@ span {
   font-size: 60px;
   color: #ff3636;
 }
+.cta-area .cta-discount-wrap {
+  position: relative;
+}
+.cta-area .cta-discount-wrap .cta-discount-shape-1 {
+  position: absolute;
+  left: 40px;
+  top: 0;
+  animation: cta-discount-image-1 15s linear infinite;
+}
+.cta-area .cta-discount-wrap .cta-discount-shape-1 .cta-dis-img-1 {
+  width: 150px;
+}
+.cta-area .cta-discount-wrap .cta-discount-shape-2 {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  animation: cta-discount-image-2 15s linear infinite;
+}
+.cta-area .cta-discount-wrap .cta-discount-shape-2 .cta-dis-img-2 {
+  width: 150px;
+}
 
+/*  Cta Discount Shape-image-1 area  start */
+@keyframes cta-discount-image-1 {
+  0% {
+    transform: trotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*  Cta Discount Shape-image-1 area  end */
+/*  Cta Discount Shape-image-2 area  start */
+@keyframes cta-discount-image-2 {
+  0% {
+    transform: trotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*  Cta Discount Shape-image-2 area  end */
 .services-area .title {
   text-align: center;
   margin-bottom: 70px;
