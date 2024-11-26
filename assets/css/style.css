@@ -1087,6 +1087,9 @@ span {
 .blog-area .title {
   margin-bottom: 70px;
 }
+.blog-area .single-blog {
+  margin-bottom: 30px;
+}
 .blog-area .single-blog:hover .image {
   transform: scale(1.1);
   transition: 1s ease;
@@ -1368,45 +1371,45 @@ span {
   }
 }
 /* Offer shape animation end */
-.about-us-area .about-us-wrapper {
+.about-us-wrapper {
   position: relative;
 }
-.about-us-area .about-us-wrapper .about-bg-shape-1 {
+.about-us-wrapper .about-bg-shape-1 {
   position: absolute;
   right: 0;
 }
-.about-us-area .about-us-wrapper .shape-top-1 {
+.about-us-wrapper .shape-top-1 {
   position: absolute;
   top: 90px;
   right: 186px;
   animation: shape-top-1 18s linear infinite;
 }
-.about-us-area .about-us-wrapper .shape-top-2 {
+.about-us-wrapper .shape-top-2 {
   position: absolute;
   top: 98px;
   left: 191px;
   animation: shape-top-2 18s linear infinite;
 }
-.about-us-area .about-us-wrapper .middle-content .about-content {
+.about-us-wrapper .middle-content .about-content {
   position: absolute;
   top: 194px;
   text-align: center;
   right: 650px;
 }
-.about-us-area .about-us-wrapper .middle-content .about-content h5 {
+.about-us-wrapper .middle-content .about-content h5 {
   font-size: 20px;
   text-transform: uppercase;
   color: #ff3636;
   font-weight: 700;
 }
-.about-us-area .about-us-wrapper .middle-content .about-content h4 {
+.about-us-wrapper .middle-content .about-content h4 {
   font-size: 42px;
   font-weight: 800;
   text-transform: capitalize;
   margin: 21px 0;
   line-height: 53px;
 }
-.about-us-area .about-us-wrapper .middle-content .about-content p {
+.about-us-wrapper .middle-content .about-content p {
   width: 607px;
   margin-bottom: 20px;
 }
