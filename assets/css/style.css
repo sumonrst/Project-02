@@ -775,6 +775,7 @@ span {
 .special-food-area {
   background-size: cover;
   background-position: center;
+  /* Special Food Shape area start */
 }
 .special-food-area .special-food-content h5 {
   font-size: 20px;
@@ -809,23 +810,33 @@ span {
   width: 471px;
   float: right;
 }
-
-.cta-wrap {
+.special-food-area .cta-wrap {
   position: relative;
 }
-
-.cta-shape-1 {
+.special-food-area .cta-wrap .cta-shape-1 {
   position: absolute;
   top: -88px;
   left: 16px;
   transform: translatex(0px);
   animation: shape-1 6s ease-in-out infinite;
 }
-.cta-shape-1 shape-image-1 {
+.special-food-area .cta-wrap .cta-shape-1 shape-image-1 {
+  width: 100%;
+  height: auto;
+}
+.special-food-area .cta-wrap .cta-shape-2 {
+  position: absolute;
+  bottom: -87px;
+  left: 0;
+  transform: translateY(0px);
+  animation: shape-2 6s ease-in-out infinite;
+}
+.special-food-area .cta-wrap .cta-shape-2 shape-image-2 {
   width: 100%;
   height: auto;
 }
 
+/* Special Food shape-image-1 area start */
 @keyframes shape-1 {
   0% {
     transform: translatex(0px);
@@ -837,6 +848,20 @@ span {
     transform: translatex(0px);
   }
 }
+/* Special Food shape-image-1 area End */
+/* Special Food shape-image-2 area star */
+@keyframes shape-2 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* Special Food shape-image-2 area star */
 .scecial-food-area2 {
   position: relative;
 }

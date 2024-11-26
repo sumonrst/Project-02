@@ -34,24 +34,36 @@
         }
 
     }
+    /* Special Food Shape area start */
+    .cta-wrap{
+        position: relative;
+        .cta-shape-1 {
+            position: absolute;
+            top: -88px;
+            left: 16px;
+            transform: translatex(0px);
+            animation: shape-1  6s ease-in-out infinite;
+            shape-image-1 { width: 100%; height: auto; }
+        }
+        .cta-shape-2 {
+            position: absolute;
+            bottom: -87px;
+            left: 0;
+            transform: translateY(0px);
+            animation: shape-2 6s ease-in-out infinite;
+            shape-image-2 { width: 100%; height: auto;}
+        }
+    } 
 }
 
 
 
-.cta-wrap {
-    position: relative;
-  }
-
-  .cta-shape-1 {
-    position: absolute;
-    top: -88px;
-    left: 16px;
-    transform: translatex(0px);
-	animation: shape-1  6s ease-in-out infinite;
-	shape-image-1 { width: 100%; height: auto; }
-  }
 
 
+
+ 
+
+/* Special Food shape-image-1 area start */ 
   @keyframes shape-1 {
 	0% {
 		transform: translatex(0px);
@@ -63,6 +75,21 @@
 		transform: translatex(0px);
 	}
 }
+/* Special Food shape-image-1 area End */ 
+
+/* Special Food shape-image-2 area star */ 
+@keyframes shape-2{
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* Special Food shape-image-2 area star */ 
 
 
 
