@@ -66,11 +66,6 @@
 
 
 
-
-
-
- 
-
 /* Special Food shape-image-1 area start */ 
   @keyframes shape-1 {
 	0% {
@@ -113,43 +108,8 @@
 }
 /* Special Food shape-image-3 area end */ 
 
-
-
-
-
-.scecial-food-area2 {
-    position: relative;
-  }
-  .shape1 {
-    position: absolute;
-    left: 73px;
-    top: 68px;
-    // width: 150px;
-	// height: 150px;
-	// box-sizing: border-box;
-	// border: 5px white solid;
-	// border-radius: 50%;
-	// overflow: hidden;
-	// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	// transform: translatex(0px);
-	// // animation: float3 6s ease-in-out infinite;
-    // animation: float3 20s linear infinite;
-	// img { width: 100%; height: auto; }
-  }
-//   .shape1 img {
-//     width: 190px;
-//   }
-
-  .shape {
-    animation: rotation 10s infinite linear;
-    display: block;
-    width: 100%;
-    height: 100px;
-    margin-top: 50px;
-  }
-
-
-  @keyframes float2 {
+/* Special Food shape-image-4 area start */ 
+@keyframes float2 {
 	0% {
 		transform: translatex(0px);
 	}
@@ -160,6 +120,55 @@
 		transform: translatex(0px);
 	}
 }
+/* Special Food shape-image-4 area end */ 
+
+
+
+
+
+// .scecial-food-area2 {
+//     position: relative;
+//   }
+//   .shape1 {
+//     position: absolute;
+//     left: 73px;
+//     top: 68px;
+//     width: 150px;
+// 	height: 150px;
+// 	box-sizing: border-box;
+// 	border: 5px white solid;
+// 	border-radius: 50%;
+// 	overflow: hidden;
+// 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+// 	transform: translatex(0px);
+// 	// animation: float3 6s ease-in-out infinite;
+//     animation: float3 20s linear infinite;
+// 	img { width: 100%; height: auto; }
+//   }
+//   .shape1 img {
+//     width: 190px;
+//   }
+
+//   .shape {
+//     animation: rotation 10s infinite linear;
+//     display: block;
+//     width: 100%;
+//     height: 100px;
+//     margin-top: 50px;
+//   }
+
+
+//   @keyframes float2 {
+// 	0% {
+// 		transform: translatex(0px);
+// 	}
+// 	50% {
+// 		transform: translatex(-20px);
+// 	}
+// 	100% {
+// 		transform: translatex(0px);
+// 	}
+// }
 
 
 
@@ -183,17 +192,17 @@
 // }
 
 
-@keyframes float2 {
-	0% {
-		// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatex(0px);
-	}
-	50% {
-		// box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatex(-20px);
-	}
-	100% {
-		// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatex(0px);
-	}
-}
+// @keyframes float2 {
+// 	0% {
+// 		// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+// 		transform: translatex(0px);
+// 	}
+// 	50% {
+// 		// box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+// 		transform: translatex(-20px);
+// 	}
+// 	100% {
+// 		// box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+// 		transform: translatex(0px);
+// 	}
+// }

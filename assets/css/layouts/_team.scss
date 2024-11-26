@@ -43,6 +43,62 @@
             }
         }
     }
+    /* Team Shape area start */ 
+    .team-wrap {
+        position: relative;
+        .team-shape-1 {
+            position: absolute;
+            bottom: 0;
+            transform: translateY(0px);
+            animation: team-shape-1 6s ease-in-out infinite;
+            team-shape-image-1 { width: 100%; height: auto; }
+        }
+        .team-shape-2 {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: translateY(0px);
+            animation: team-shape-2 6s ease-in-out infinite;
+            team-shape-image-2 { width: 100%; height: auto; }
+        }
+    }
+    /* Team Shape area end */ 
 }
+
+
+
+/* Team Shape image-1 area start */ 
+@keyframes team-shape-1 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* Team Shape image area start */ 
+
+/* Team Shape image-2 area start */ 
+@keyframes team-shape-2 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* Team Shape image-2 area end */ 
+
+
+
+
+
+
 
 

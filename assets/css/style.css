@@ -630,6 +630,8 @@ span {
 }
 .team-area {
   background-color: #F2F2F2;
+  /* Team Shape area start */
+  /* Team Shape area end */
 }
 .team-area .title {
   margin-bottom: 70px;
@@ -674,7 +676,57 @@ span {
   text-transform: lowercase;
   font-size: 16px;
 }
+.team-area .team-wrap {
+  position: relative;
+}
+.team-area .team-wrap .team-shape-1 {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(0px);
+  animation: team-shape-1 6s ease-in-out infinite;
+}
+.team-area .team-wrap .team-shape-1 team-shape-image-1 {
+  width: 100%;
+  height: auto;
+}
+.team-area .team-wrap .team-shape-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(0px);
+  animation: team-shape-2 6s ease-in-out infinite;
+}
+.team-area .team-wrap .team-shape-2 team-shape-image-2 {
+  width: 100%;
+  height: auto;
+}
 
+/* Team Shape image-1 area start */
+@keyframes team-shape-1 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* Team Shape image area start */
+/* Team Shape image-2 area start */
+@keyframes team-shape-2 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* Team Shape image-2 area end */
 .testimonial-area {
   color: #fff;
 }
@@ -886,24 +938,7 @@ span {
   }
 }
 /* Special Food shape-image-3 area end */
-.scecial-food-area2 {
-  position: relative;
-}
-
-.shape1 {
-  position: absolute;
-  left: 73px;
-  top: 68px;
-}
-
-.shape {
-  animation: rotation 10s infinite linear;
-  display: block;
-  width: 100%;
-  height: 100px;
-  margin-top: 50px;
-}
-
+/* Special Food shape-image-4 area start */
 @keyframes float2 {
   0% {
     transform: translatex(0px);
@@ -915,17 +950,7 @@ span {
     transform: translatex(0px);
   }
 }
-@keyframes float2 {
-  0% {
-    transform: translatex(0px);
-  }
-  50% {
-    transform: translatex(-20px);
-  }
-  100% {
-    transform: translatex(0px);
-  }
-}
+/* Special Food shape-image-4 area end */
 .blog-area {
   background-color: #F2F2F2;
 }
