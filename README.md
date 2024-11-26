@@ -11,4 +11,5 @@
 - Magnific-popup<br>
 - Slick Slider<br>
 - Fontawesome Icon
+- @keyframes Animation
 <img src="assets/images/screenshort-resturent.png">
