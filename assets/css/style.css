@@ -446,36 +446,31 @@ span {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 200px;
+  padding: 130px;
 }
-
-.breadcurmb-content {
+.breadcrumb-area .breadcurmb-content {
   text-align: center;
   color: #fff;
 }
-
-.breadcurmb-content h4 {
+.breadcrumb-area .breadcurmb-content h4 {
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 25px;
   font-size: 60px;
   line-height: 50px;
 }
-
-.breadcurmb-content ul li a {
-  color: #fff;
-  text-transform: capitalize;
-  font-weight: 600;
-}
-
-.breadcrumb-menu {
+.breadcrumb-area .breadcurmb-content .breadcrumb-menu {
   display: flex;
   justify-content: center;
   gap: 15px;
 }
-
-.breadcrumb-menu li.active {
+.breadcrumb-area .breadcurmb-content .breadcrumb-menu li.active {
   color: #ff3636;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.breadcrumb-area .breadcurmb-content .breadcrumb-menu li a {
+  color: #fff;
   text-transform: capitalize;
   font-weight: 600;
 }
@@ -1301,4 +1296,42 @@ span {
 .footer-social ul li a i:hover {
   border: 1px solid #E63131;
   transition: 0.3s;
+}
+
+.offer-area {
+  background-color: #F2F2F2;
+}
+.offer-area .offer-card .btn {
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.offer-content {
+  color: #fff;
+}
+
+.offer-content h4 {
+  font-size: 18px;
+}
+
+.offer-card {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  gap: 10px;
+  padding: 16px 24px;
+}
+
+.offer-thumbnail {
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+  top: 0;
+}
+
+.offer-thumbnail img {
+  width: 140px;
 }/*# sourceMappingURL=style.css.map */
