@@ -1120,11 +1120,18 @@ span {
   color: #ff3636;
 }
 .blog-area .single-blog .blog-content .blog-meta .item2 .icon span {
-  font-size: 15px;
+  font-size: 13px;
   text-transform: capitalize;
+  font-weight: 400;
 }
 .blog-area .single-blog .blog-content .blog-meta .item3 .icon i {
   color: #ff3636;
+}
+.blog-area .single-blog .blog-content .blog-meta .item3 .icon span {
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 .footer-area {
