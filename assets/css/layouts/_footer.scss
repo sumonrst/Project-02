@@ -90,7 +90,7 @@
     padding-right: 68px;
   }
   .newsletter button {
-    background-color: tomato;
+    background-color: #E63131;
   }
 
   
@@ -113,6 +113,33 @@
 
 
 
+  .single-widget li {
+    color: #868080;
+  }
+  .single-widget ul li span {
+    color: #E63131;
+    font-size: 15px;
+  }
+
+
+  .single-widget ul li a:hover {
+    color: #E63131;
+  }
+
+
+  
+
+.footer-social ul li:hover {
+  background-color: #E63131;
+  transition: .3s;
+}
+.footer-social ul li a:hover {
+  color: #fff;
+}
+.footer-social ul li a i:hover {
+  border: 1px solid #E63131;
+  transition: .3s;
+}
 
 
   

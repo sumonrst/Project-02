@@ -1220,7 +1220,7 @@ span {
 }
 
 .newsletter button {
-  background-color: tomato;
+  background-color: #E63131;
 }
 
 .newsletter button {
@@ -1238,4 +1238,31 @@ span {
   line-height: 50px;
   /*! border-radius: 10px; */
   color: #fff;
+}
+
+.single-widget li {
+  color: #868080;
+}
+
+.single-widget ul li span {
+  color: #E63131;
+  font-size: 15px;
+}
+
+.single-widget ul li a:hover {
+  color: #E63131;
+}
+
+.footer-social ul li:hover {
+  background-color: #E63131;
+  transition: 0.3s;
+}
+
+.footer-social ul li a:hover {
+  color: #fff;
+}
+
+.footer-social ul li a i:hover {
+  border: 1px solid #E63131;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
