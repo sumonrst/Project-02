@@ -442,6 +442,44 @@ span {
   transition: 0.2s;
 }
 
+.breadcrumb-area {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px;
+}
+
+.breadcurmb-content {
+  text-align: center;
+  color: #fff;
+}
+
+.breadcurmb-content h4 {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-size: 60px;
+  line-height: 50px;
+}
+
+.breadcurmb-content ul li a {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.breadcrumb-menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.breadcrumb-menu li.active {
+  color: #ff3636;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
 .banner_area .slick-arrow {
   position: absolute;
   top: 50%;
