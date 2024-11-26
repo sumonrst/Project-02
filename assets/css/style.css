@@ -1363,12 +1363,14 @@ span {
 
 .shape-top-1 {
   position: absolute;
-  top: 0;
+  top: 90px;
+  right: 186px;
 }
 
 .shape-top-2 {
   position: absolute;
-  top: 0;
+  top: 98px;
+  left: 191px;
 }
 
 .about-content {
