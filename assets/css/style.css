@@ -1343,15 +1343,31 @@ span {
 .offer-area .offer-card .offer-thumbnail .shape {
   position: absolute;
   top: -19px;
-  left: -59px;
+  left: -21px;
+  transform: translateX(0px);
+  animation: offer-image 6s ease-in-out infinite;
+}
+.offer-area .offer-card .offer-thumbnail .shape offer-image {
+  width: 68px;
+  height: auto;
 }
 .offer-area .offer-card .offer-thumbnail .shape .offer-image {
   width: 68px;
 }
-.offer-area .offer-card .offer-thumbnail img {
-  width: 140px;
-}
 
+/* Offer shape animation start */
+@keyframes offer-image {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+/* Offer shape animation end */
 .about-us-area .about-us-wrapper {
   position: relative;
 }

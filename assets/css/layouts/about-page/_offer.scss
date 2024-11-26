@@ -40,16 +40,29 @@
             .shape {
                 position: absolute;
                 top: -19px;
-                left: -59px;
+                left: -21px;
+                transform: translateX(0px);
+                animation: offer-image 6s ease-in-out infinite;
+                offer-image { width: 68px; height: auto; }
                 .offer-image {
                     width: 68px;
                 }
-            }
-            img {
-                width: 140px;
             }
         }
     }
 }
 
 
+/* Offer shape animation start */ 
+@keyframes offer-image {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+/* Offer shape animation end */ 
