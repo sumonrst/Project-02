@@ -15,3 +15,26 @@ $(document).ready(function(){
         dots:true,
     });
   });
+
+
+/* Menu scroll code here start */
+$(window).scroll(function() {
+    /* Menu scroll background color change start */
+    if($(window).scrollTop() > 500) {
+        $('.header_area').addClass('sticky');
+    }else{
+        $('.header_area').removeClass('sticky');
+    }
+    /* Menu scroll background color change end */
+
+    /*  Menu scroll font color change start */ 
+    if($(window).scrollTop() > 500) {
+        $('.header_menu ul li a').addClass('fontcolor');
+    }else{
+        $('.header_menu ul li a').removeClass('fontcolor');
+    }
+    /*  Menu scroll font color change end */ 
+}); 
+
+
+
