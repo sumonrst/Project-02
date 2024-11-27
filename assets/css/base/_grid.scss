@@ -12,15 +12,29 @@
 
 $grid_columns: 12;
 $grid_xxl_brackpoint: 1400px;
+$grid_xl_brackpoint: 1200px;
+
+/* Desktop Devices 1140px */ 
+@media (min-width: $grid_xl_brackpoint) {
+    .container{
+        width: 1140px;
+    }
+    @for $i from 1 through 12{
+        .col-xl-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
+
+
+/* Desktop Devices 1320px */ 
+
 @media (min-width: $grid_xxl_brackpoint) {
     .container{
         width: 1320px;
     }
     @for $i from 1 through 12{
-        // .col-xxl-#{$i}{
-        //     width:(100 / 12) * $i * 1%;
-        //     padding: 0 15px;
-        // }
         .col-xxl-#{$i}{
             width: (100 / 12) * $i * 1%;
             padding: 0 15px;
