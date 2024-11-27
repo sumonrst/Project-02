@@ -1308,6 +1308,17 @@ span {
   transition: 0.3s;
 }
 
+.footer-copyright-area {
+  padding: 35px;
+  text-align: center;
+  background-color: #E63131;
+  color: #fff;
+}
+
+.copyright p {
+  font-weight: 600;
+}
+
 /* About Page File Start */
 .offer-area {
   background-color: #F2F2F2;
