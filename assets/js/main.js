@@ -20,7 +20,7 @@ $(document).ready(function(){
 /* Menu scroll code here start */
 $(window).scroll(function() {
     /* Menu scroll background color change start */
-    if($(window).scrollTop() > 500) {
+    if($(window).scrollTop() > 200) {
         $('.header_area').addClass('sticky');
     }else{
         $('.header_area').removeClass('sticky');
@@ -28,7 +28,7 @@ $(window).scroll(function() {
     /* Menu scroll background color change end */
 
     /*  Menu scroll font color change start */ 
-    if($(window).scrollTop() > 500) {
+    if($(window).scrollTop() > 200) {
         $('.header_menu ul li a').addClass('fontcolor');
     }else{
         $('.header_menu ul li a').removeClass('fontcolor');
