@@ -36,6 +36,9 @@
             }
         }
         .offer-thumbnail {
+            img{
+                width: 200px;
+            }
             position: relative;
             .shape {
                 position: absolute;

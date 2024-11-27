@@ -1350,6 +1350,9 @@ span {
 .offer-area .offer-card .offer-thumbnail {
   position: relative;
 }
+.offer-area .offer-card .offer-thumbnail img {
+  width: 200px;
+}
 .offer-area .offer-card .offer-thumbnail .shape {
   position: absolute;
   top: -19px;
