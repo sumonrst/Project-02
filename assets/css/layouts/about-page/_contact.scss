@@ -45,6 +45,13 @@
     width: 100%;
     padding: 15px;
     margin-bottom: 16px;
+    border: 1px solid #ff3636;
+    transition: .3s;
+  }
+  .single-row input:focus {
+    border: 1px solid #ff3636;
+    outline: none;
+    transition: .3s;
   }
   .contact-left {
     background-color: #fff;
@@ -60,6 +67,12 @@
     height: 200px;
     margin-bottom: 16px;
     padding: 7px 13px;
+    border: 1px solid #ff3636;
+  }
+  .single-row textarea:focus{
+    border: 1px solid #ff3636;
+    outline: none;
+    transition: .3s;
   }
   .single-row input[type="submit"] {
     background-color: #ff3636;
