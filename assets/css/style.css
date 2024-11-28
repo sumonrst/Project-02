@@ -330,8 +330,62 @@ span {
   margin: 0 -15px;
 }
 
-/* Desktop Devices 1140px */
-@media (min-width: 1200px) {
+/* Large Devices 960px - 992px */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+  .col-lg-1 {
+    width: 8.3333333333%;
+    padding: 0 15px;
+  }
+  .col-lg-2 {
+    width: 16.6666666667%;
+    padding: 0 15px;
+  }
+  .col-lg-3 {
+    width: 25%;
+    padding: 0 15px;
+  }
+  .col-lg-4 {
+    width: 33.3333333333%;
+    padding: 0 15px;
+  }
+  .col-lg-5 {
+    width: 41.6666666667%;
+    padding: 0 15px;
+  }
+  .col-lg-6 {
+    width: 50%;
+    padding: 0 15px;
+  }
+  .col-lg-7 {
+    width: 58.3333333333%;
+    padding: 0 15px;
+  }
+  .col-lg-8 {
+    width: 66.6666666667%;
+    padding: 0 15px;
+  }
+  .col-lg-9 {
+    width: 75%;
+    padding: 0 15px;
+  }
+  .col-lg-10 {
+    width: 83.3333333333%;
+    padding: 0 15px;
+  }
+  .col-lg-11 {
+    width: 91.6666666667%;
+    padding: 0 15px;
+  }
+  .col-lg-12 {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+/* Tablet Devices 1140px 1200px*/
+@media (min-width: 1200px) and (max-width: 992px) {
   .container {
     width: 1140px;
   }
@@ -385,7 +439,7 @@ span {
   }
 }
 /* Desktop Devices 1320px */
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-width: 1200px) {
   .container {
     width: 1320px;
   }
@@ -438,6 +492,7 @@ span {
     padding: 0 15px;
   }
 }
+/* Responsive Mixing */
 /* Section Title */
 .title {
   text-align: center;
@@ -567,6 +622,11 @@ span {
   position: relative;
   height: 100vh;
 }
+@media (min-width: 992px) {
+  .banner_area .single_banner {
+    height: 60vh;
+  }
+}
 .banner_area .single_banner .banner_content {
   height: 100vh;
   color: #fff;
@@ -574,6 +634,11 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 992px) {
+  .banner_area .single_banner .banner_content {
+    height: 60vh;
+  }
 }
 .banner_area .single_banner .banner_content h5 {
   font-size: 30px;
@@ -613,6 +678,11 @@ span {
   left: 206px;
   bottom: -80px;
 }
+@media (min-width: 1200px) {
+  .about-area .about-gallery img:nth-child(2) {
+    left: 183px;
+  }
+}
 .about-area .about-wrap {
   position: relative;
 }
@@ -626,6 +696,16 @@ span {
   width: 100%;
   height: auto;
 }
+@media (min-width: 1200px) {
+  .about-area .about-wrap .about-shape-1 {
+    bottom: 470px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-area .about-wrap .about-shape-1 img {
+    width: 75px;
+  }
+}
 .about-area .about-wrap .about-shape-2 {
   position: absolute;
   right: 0;
@@ -636,6 +716,16 @@ span {
 .about-area .about-wrap .about-shape-2 about-shape-image-2 {
   width: 100%;
   height: auto;
+}
+@media (min-width: 1200px) {
+  .about-area .about-wrap .about-shape-2 {
+    top: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-area .about-wrap .about-shape-2 img {
+    width: 75px;
+  }
 }
 
 /* About Shape-image-area-1 start */
@@ -669,12 +759,24 @@ span {
   border-bottom: 1px solid #ddd;
   background-color: #F2F2F2;
 }
+@media (min-width: 1200px) {
+  .menu-area .title {
+    margin-bottom: 70px;
+  }
+}
 .menu-area .single-menu {
   background-color: #fff;
   padding: 20px;
   margin-bottom: 30px;
   display: flex;
   border: 1px solid #ddd;
+}
+@media (min-width: 1200px) {
+  .menu-area .single-menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+  }
 }
 .menu-area .single-menu:hover img {
   border-radius: 50%;
@@ -692,10 +794,20 @@ span {
   margin-bottom: 10px;
   font-weight: 600;
 }
+@media (min-width: 1200px) {
+  .menu-area .menu-content h4 {
+    margin-top: 14px;
+  }
+}
 .menu-area .menu-content h4 span {
   float: right;
   font-weight: 600;
   color: #ff3636;
+}
+@media (min-width: 1200px) {
+  .menu-area .menu-content p {
+    text-align: center;
+  }
 }
 
 .cta-area {
@@ -712,10 +824,20 @@ span {
 .cta-area .title h4 {
   font-size: 60px;
 }
+@media (min-width: 1200px) {
+  .cta-area .title h4 {
+    font-size: 34px;
+  }
+}
 .cta-area .title h4 span {
   display: inline-block;
   font-size: 60px;
   color: #ff3636;
+}
+@media (min-width: 1200px) {
+  .cta-area .title h4 span {
+    font-size: 34px;
+  }
 }
 .cta-area .cta-discount-wrap {
   position: relative;
@@ -881,6 +1003,26 @@ span {
   width: 100%;
   height: auto;
 }
+@media (min-width: 1200px) {
+  .team-area .team-wrap .team-shape-1 {
+    bottom: -102px;
+  }
+}
+@media (min-width: 1400px) {
+  .team-area .team-wrap .team-shape-1 {
+    bottom: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .team-area .team-wrap .team-shape-1 img {
+    width: 115px;
+  }
+}
+@media (min-width: 1400px) {
+  .team-area .team-wrap .team-shape-1 img {
+    width: 100%;
+  }
+}
 .team-area .team-wrap .team-shape-2 {
   position: absolute;
   right: 0;
@@ -891,6 +1033,16 @@ span {
 .team-area .team-wrap .team-shape-2 team-shape-image-2 {
   width: 100%;
   height: auto;
+}
+@media (min-width: 1200px) {
+  .team-area .team-wrap .team-shape-2 img {
+    width: 115px;
+  }
+}
+@media (min-width: 1400px) {
+  .team-area .team-wrap .team-shape-2 img {
+    width: 100%;
+  }
 }
 
 /* Team Shape image-1 area start */
@@ -1021,6 +1173,11 @@ span {
   background-position: center;
   /* Special Food Shape area start */
 }
+@media (min-width: 1200px) {
+  .special-food-area .special-food-content {
+    position: absolute;
+  }
+}
 .special-food-area .special-food-content h5 {
   font-size: 20px;
   color: #ff3636;
@@ -1050,9 +1207,17 @@ span {
   width: 100%;
   height: auto;
 }
-.special-food-area .fooed-image img {
-  width: 471px;
-  float: right;
+@media (min-width: 1200px) {
+  .special-food-area .fooed-image img {
+    width: 400px;
+    float: right;
+  }
+}
+@media (min-width: 1400px) {
+  .special-food-area .fooed-image img {
+    width: 471px;
+    float: right;
+  }
 }
 .special-food-area .cta-wrap {
   position: relative;
@@ -1301,7 +1466,6 @@ span {
   margin-right: 7px;
 }
 .footer-area .single-widget .footer-social .social_list li:hover {
-  background-color: #E63131;
   transition: 0.3s;
 }
 .footer-area .single-widget .footer-social .social_list li a:hover {
@@ -1317,6 +1481,7 @@ span {
 .footer-area .single-widget .footer-social .social_list li a i:hover {
   border: 1px solid #E63131;
   transition: 0.3s;
+  background-color: #ff3636;
 }
 .footer-area .single-widget .newsletter input {
   width: 100%;

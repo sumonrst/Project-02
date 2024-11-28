@@ -13,9 +13,23 @@
 $grid_columns: 12;
 $grid_xxl_brackpoint: 1400px;
 $grid_xl_brackpoint: 1200px;
+$grid_lg_brackpoint: 992px;
 
-/* Desktop Devices 1140px */ 
-@media (min-width: $grid_xl_brackpoint) {
+/* Large Devices 960px - 992px */ 
+@media (min-width: $grid_lg_brackpoint) {
+    .container{
+        width: 960px;
+    }
+    @for $i from 1 through 12{
+        .col-lg-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
+
+/* Tablet Devices 1140px 1200px*/ 
+@media (min-width: $grid_xl_brackpoint) and (max-width: $grid_lg_brackpoint) {
     .container{
         width: 1140px;
     }
@@ -30,7 +44,7 @@ $grid_xl_brackpoint: 1200px;
 
 /* Desktop Devices 1320px */ 
 
-@media (min-width: $grid_xxl_brackpoint) {
+@media (min-width: $grid_xxl_brackpoint) and (max-width: $grid_xl_brackpoint){
     .container{
         width: 1320px;
     }
@@ -41,3 +55,45 @@ $grid_xl_brackpoint: 1200px;
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+/* Responsive Mixing */ 
+@mixin min-xxl{
+    @media ( min-width:$grid_xxl_brackpoint ){
+        @content;
+    }
+}
+
+@mixin min-xl {
+    @media ( min-width:$grid_xl_brackpoint ){
+        @content;
+    }
+}
+
+@mixin min-lg {
+    @media ( min-width:$grid_lg_brackpoint ){ 
+        @content;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

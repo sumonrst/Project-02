@@ -2,6 +2,9 @@
 	background-size: cover;
 	background-position: center;
     .special-food-content{
+        @include min-xl{
+            position: absolute;
+        }
         h5 {
             font-size: 20px;
             color: #ff3636;
@@ -29,8 +32,14 @@
         animation: float2 6s ease-in-out infinite;
         food-image { width: 100%; height: auto; }
         img {
-            width: 471px;
-            float: right;
+            @include min-xl{
+                width: 400px;
+                float: right; 
+            }
+            @include min-xxl{
+                width: 471px;
+                float: right; 
+            }  
         }
 
     }

@@ -51,6 +51,20 @@
             transform: translateY(0px);
             animation: team-shape-1 6s ease-in-out infinite;
             team-shape-image-1 { width: 100%; height: auto; }
+            @include min-xl{
+                bottom: -102px;
+            }
+            @include min-xxl{
+                bottom: 0px;
+            }
+            img{
+                @include min-xl{
+                    width:115px;
+                }
+                @include min-xxl{
+                    width:100%;
+                }
+            }
         }
         .team-shape-2 {
             position: absolute;
@@ -59,6 +73,14 @@
             transform: translateY(0px);
             animation: team-shape-2 6s ease-in-out infinite;
             team-shape-image-2 { width: 100%; height: auto; }
+            img{
+                @include min-xl{
+                    width:115px;
+                }
+                @include min-xxl{
+                    width:100%;
+                }
+            }
         }
     }
     /* Team Shape area end */ 

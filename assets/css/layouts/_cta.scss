@@ -7,10 +7,16 @@
         }
         h4 {
             font-size: 60px;
+            @include min-xl{
+                font-size: 34px;
+            }
             span {
                 display: inline-block;
                 font-size: 60px;
                 color: #ff3636;
+                @include min-xl{
+                    font-size: 34px;
+                }
             }
         }
     }

@@ -71,7 +71,6 @@
             display: inline-block;
             margin-right: 7px;
             &:hover {
-              background-color: #E63131;
               transition: .3s;
             }
             a{
@@ -87,6 +86,7 @@
                 &:hover {
                   border: 1px solid #E63131;
                   transition: .3s;
+                  background-color: #ff3636;
                 }
               }
             }

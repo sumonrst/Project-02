@@ -29,6 +29,9 @@
     .single_banner {
         position: relative;
         height: 100vh;
+        @include min-lg{
+            height: 60vh;
+        }
         .banner_content {
             height: 100vh;
             color: #fff;
@@ -36,6 +39,9 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            @include min-lg{
+                height: 60vh;
+            }
             h5 {
                 font-size: 30px;
                 text-transform: capitalize;
