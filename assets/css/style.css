@@ -1584,6 +1584,11 @@ span {
   font-weight: 700;
   text-transform: capitalize;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-area .footer-cta .single-cta h4 {
+    font-size: 14px;
+  }
+}
 .footer-area .footer-cta .single-cta i {
   font-size: 25px;
   background-color: #fff;
@@ -1599,12 +1604,22 @@ span {
   font-size: 15px;
   text-transform: capitalize;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-area .footer-cta .single-cta span {
+    font-size: 14px;
+  }
+}
 .footer-area .single-widget {
   color: #fff;
 }
 .footer-area .single-widget ul li {
   padding-bottom: 17px;
   color: #868080;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-area .single-widget ul li {
+    font-size: 12px;
+  }
 }
 .footer-area .single-widget ul li span {
   color: #E63131;

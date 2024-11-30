@@ -18,6 +18,9 @@
                 font-size: 20px;
                 font-weight: 700;
                 text-transform: capitalize;
+                @include min-lg{
+                  font-size: 14px;
+                }
             }
             i {
                 font-size: 25px;
@@ -33,6 +36,9 @@
                 display: block;
                 font-size: 15px;
                 text-transform: capitalize;
+                @include min-lg{
+                  font-size: 14px;
+                }
             }
         }
     }
@@ -42,6 +48,9 @@
         li{
           padding-bottom: 17px;
           color: #868080;
+          @include min-lg{
+            font-size: 12px;
+          }
           span {
             color: #E63131;
             font-size: 15px;
