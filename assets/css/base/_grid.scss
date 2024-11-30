@@ -14,7 +14,20 @@ $grid_columns: 12;
 $grid_xxl_brackpoint: 1400px;
 $grid_xl_brackpoint: 1200px;
 $grid_lg_brackpoint: 992px;
+$grid_md_brackpoint: 768px;
 
+/* Medium Devices 720px - 768px */ 
+@media (min-width: $grid_md_brackpoint) {
+    .container{
+        width:720px;
+    }
+    @for $i from 1 through 12{
+        .col-md-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
 /* Large Devices 960px - 992px */ 
 @media (min-width: $grid_lg_brackpoint) {
     .container{
@@ -80,6 +93,11 @@ $grid_lg_brackpoint: 992px;
 
 @mixin min-lg {
     @media ( min-width:$grid_lg_brackpoint ) and (  max-width:$grid_xl_brackpoint){ 
+        @content;
+    }
+}
+@mixin min-md {
+    @media ( min-width:$grid_md_brackpoint ) and (  max-width:$grid_lg_brackpoint){ 
         @content;
     }
 }

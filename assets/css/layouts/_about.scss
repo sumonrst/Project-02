@@ -1,5 +1,8 @@
 
 .about-area{
+    @include min-md{
+        padding-bottom: 130px;
+    }
     .about-content{
         p {
             margin-bottom: 25px;
@@ -7,6 +10,9 @@
     }
     .about-gallery {
         position: relative;
+        @include min-md{
+            margin-top: 50px;
+        }
         @include min-lg{
             margin-top: 50px;
         }
@@ -27,6 +33,11 @@
                 right: 0;
                 left: 206px;
                 bottom: -80px;
+                @include min-md{
+                    max-width: 367px;
+                    top: 117px;
+                    left: 281px;
+                }
                 @include min-lg{
                     max-width: 444px;
                     right: 3px;
