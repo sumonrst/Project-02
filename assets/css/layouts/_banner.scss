@@ -47,12 +47,18 @@
                 font-size: 30px;
                 text-transform: capitalize;
                 font-weight: 700;
+                @include min-md{
+                    font-size: 26px;
+                }
             }
             h2 {
                 font-size: 60px;
                 text-transform: capitalize;
                 margin: 20px 0;
                 font-weight: 800;
+                @include min-md{
+                    font-size: 50px;
+                }
             }
             .banner-btn{
                 a {

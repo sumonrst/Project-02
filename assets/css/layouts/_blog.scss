@@ -13,6 +13,9 @@
             overflow: hidden;
             .image {
                 transition: 1s ease;
+                @include min-md{
+                    width: 100%;
+                }
             }
         }
         .blog-content{

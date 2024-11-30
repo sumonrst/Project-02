@@ -10,6 +10,10 @@
         justify-content: space-between;
         border-radius: 20px;
         margin-bottom: 70px;
+        @include min-md{
+            flex-direction: column;
+            row-gap: 57px;
+        }
         .single-cta {
             display: flex;
             gap: 16px;
@@ -43,6 +47,9 @@
         }
     }
     .single-widget {
+      @include min-md{
+        margin-bottom: 50px;
+      }
       color: #fff;
       ul{
         li{

@@ -2,6 +2,9 @@
 	background-size: cover;
 	background-position: center;
     .special-food-content{
+        @include min-md{
+            text-align: center;
+        }
         @include min-lg{
             position: absolute;
             z-index: 9;

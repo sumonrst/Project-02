@@ -28,6 +28,10 @@
                         color: $brandcolor;
                         transition: .2s;
                     }
+                    @include min-md{
+                        margin-left: 12px;
+                        font-size: 15px;
+                    }
                 }
             }
         }

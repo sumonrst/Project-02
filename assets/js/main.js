@@ -30,7 +30,7 @@ $(document).ready(function(){
         autoplay: true,
         slidesToShow:2,
         arrows: false,
-        dots:true,
+        dots:true
     });
   });
 

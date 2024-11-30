@@ -612,6 +612,12 @@ span {
   color: #ff3636;
   transition: 0.2s;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .header_area .header_menu ul li a {
+    margin-left: 12px;
+    font-size: 15px;
+  }
+}
 
 .breadcrumb-area {
   background-size: cover;
@@ -699,11 +705,21 @@ span {
   text-transform: capitalize;
   font-weight: 700;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner_area .single_banner .banner_content h5 {
+    font-size: 26px;
+  }
+}
 .banner_area .single_banner .banner_content h2 {
   font-size: 60px;
   text-transform: capitalize;
   margin: 20px 0;
   font-weight: 800;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner_area .single_banner .banner_content h2 {
+    font-size: 50px;
+  }
 }
 .banner_area .single_banner .banner_content .banner-btn a {
   margin: 30px 10px 0;
@@ -1369,6 +1385,11 @@ span {
   background-position: center;
   /* Special Food Shape area start */
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .special-food-area .special-food-content {
+    text-align: center;
+  }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
   .special-food-area .special-food-content {
     position: absolute;
@@ -1540,6 +1561,11 @@ span {
 .blog-area .single-blog .blog-image .image {
   transition: 1s ease;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .blog-area .single-blog .blog-image .image {
+    width: 100%;
+  }
+}
 .blog-area .single-blog .blog-content {
   padding: 25px;
   background-color: #fff;
@@ -1676,6 +1702,12 @@ span {
   border-radius: 20px;
   margin-bottom: 70px;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer-area .footer-cta {
+    flex-direction: column;
+    row-gap: 57px;
+  }
+}
 .footer-area .footer-cta .single-cta {
   display: flex;
   gap: 16px;
@@ -1713,6 +1745,11 @@ span {
 }
 .footer-area .single-widget {
   color: #fff;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer-area .single-widget {
+    margin-bottom: 50px;
+  }
 }
 .footer-area .single-widget ul li {
   padding-bottom: 17px;
