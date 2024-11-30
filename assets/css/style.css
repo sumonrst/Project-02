@@ -385,7 +385,7 @@ span {
   }
 }
 /* Tablet Devices 1140px 1200px*/
-@media (min-width: 1200px) and (max-width: 992px) {
+@media (min-width: 1200px) {
   .container {
     width: 1140px;
   }
@@ -439,7 +439,7 @@ span {
   }
 }
 /* Desktop Devices 1320px */
-@media (min-width: 1400px) and (max-width: 1200px) {
+@media (min-width: 1400px) {
   .container {
     width: 1320px;
   }
@@ -622,7 +622,7 @@ span {
   position: relative;
   height: 100vh;
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .banner_area .single_banner {
     height: 60vh;
   }
@@ -635,7 +635,7 @@ span {
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .banner_area .single_banner .banner_content {
     height: 60vh;
   }
@@ -665,11 +665,26 @@ span {
 .about-area .about-gallery {
   position: relative;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about-area .about-gallery {
+    margin-top: 50px;
+  }
+}
 .about-area .about-gallery img {
   border: 1px solid #ddd;
 }
 .about-area .about-gallery img:nth-child(1) {
   max-width: 480px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about-area .about-gallery img:nth-child(1) {
+    max-width: 550px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .about-area .about-gallery img:nth-child(1) {
+    left: 183px;
+  }
 }
 .about-area .about-gallery img:nth-child(2) {
   max-width: 350px;
@@ -678,7 +693,16 @@ span {
   left: 206px;
   bottom: -80px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about-area .about-gallery img:nth-child(2) {
+    max-width: 444px;
+    right: 3px;
+    bottom: -80px;
+    top: 38px;
+    left: 450px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
   .about-area .about-gallery img:nth-child(2) {
     left: 183px;
   }
@@ -696,12 +720,12 @@ span {
   width: 100%;
   height: auto;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .about-area .about-wrap .about-shape-1 {
     bottom: 470px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .about-area .about-wrap .about-shape-1 img {
     width: 75px;
   }
@@ -717,12 +741,12 @@ span {
   width: 100%;
   height: auto;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .about-area .about-wrap .about-shape-2 {
     top: 500px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .about-area .about-wrap .about-shape-2 img {
     width: 75px;
   }
@@ -759,7 +783,7 @@ span {
   border-bottom: 1px solid #ddd;
   background-color: #F2F2F2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .menu-area .title {
     margin-bottom: 70px;
   }
@@ -771,7 +795,13 @@ span {
   display: flex;
   border: 1px solid #ddd;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+  .menu-area .single-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
   .menu-area .single-menu {
     flex-direction: column;
     align-items: center;
@@ -787,6 +817,16 @@ span {
   margin-right: 20px;
   transition: 0.3s;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .menu-area .single-menu img {
+    margin-bottom: 23px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .menu-area .menu-content {
+    text-align: center;
+  }
+}
 .menu-area .menu-content h4 {
   font-size: 22px;
   border-bottom: 1px dashed #ddd;
@@ -794,7 +834,7 @@ span {
   margin-bottom: 10px;
   font-weight: 600;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .menu-area .menu-content h4 {
     margin-top: 14px;
   }
@@ -804,7 +844,15 @@ span {
   font-weight: 600;
   color: #ff3636;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+  .menu-area .menu-content h4 span {
+    float: none;
+    font-weight: 600;
+    color: #ff3636;
+    margin-left: 60px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
   .menu-area .menu-content p {
     text-align: center;
   }
@@ -824,7 +872,12 @@ span {
 .cta-area .title h4 {
   font-size: 60px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cta-area .title h4 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
   .cta-area .title h4 {
     font-size: 34px;
   }
@@ -834,7 +887,12 @@ span {
   font-size: 60px;
   color: #ff3636;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cta-area .title h4 span {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
   .cta-area .title h4 span {
     font-size: 34px;
   }
@@ -926,6 +984,16 @@ span {
   font-weight: 700;
   margin: 14px 0;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .services-area .single-service h4 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .services-area .single-service p {
+    font-size: 14px;
+  }
+}
 .services-area .single-service img {
   overflow: hidden;
   transform: translatey(0px);
@@ -1003,7 +1071,7 @@ span {
   width: 100%;
   height: auto;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .team-area .team-wrap .team-shape-1 {
     bottom: -102px;
   }
@@ -1013,7 +1081,7 @@ span {
     bottom: 0px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .team-area .team-wrap .team-shape-1 img {
     width: 115px;
   }
@@ -1034,7 +1102,7 @@ span {
   width: 100%;
   height: auto;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .team-area .team-wrap .team-shape-2 img {
     width: 115px;
   }
@@ -1173,7 +1241,7 @@ span {
   background-position: center;
   /* Special Food Shape area start */
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .special-food-area .special-food-content {
     position: absolute;
   }
@@ -1207,7 +1275,7 @@ span {
   width: 100%;
   height: auto;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .special-food-area .fooed-image img {
     width: 400px;
     float: right;

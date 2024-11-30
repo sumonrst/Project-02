@@ -29,7 +29,7 @@ $grid_lg_brackpoint: 992px;
 }
 
 /* Tablet Devices 1140px 1200px*/ 
-@media (min-width: $grid_xl_brackpoint) and (max-width: $grid_lg_brackpoint) {
+@media (min-width: $grid_xl_brackpoint) {
     .container{
         width: 1140px;
     }
@@ -44,7 +44,7 @@ $grid_lg_brackpoint: 992px;
 
 /* Desktop Devices 1320px */ 
 
-@media (min-width: $grid_xxl_brackpoint) and (max-width: $grid_xl_brackpoint){
+@media (min-width: $grid_xxl_brackpoint) {
     .container{
         width: 1320px;
     }
@@ -67,19 +67,19 @@ $grid_lg_brackpoint: 992px;
 
 /* Responsive Mixing */ 
 @mixin min-xxl{
-    @media ( min-width:$grid_xxl_brackpoint ){
+    @media ( min-width:$grid_xxl_brackpoint ) {
         @content;
     }
 }
 
 @mixin min-xl {
-    @media ( min-width:$grid_xl_brackpoint ){
+    @media ( min-width:$grid_xl_brackpoint ) and (  max-width:$grid_xxl_brackpoint){
         @content;
     }
 }
 
 @mixin min-lg {
-    @media ( min-width:$grid_lg_brackpoint ){ 
+    @media ( min-width:$grid_lg_brackpoint ) and (  max-width:$grid_xl_brackpoint){ 
         @content;
     }
 }

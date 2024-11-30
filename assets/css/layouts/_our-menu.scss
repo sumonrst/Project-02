@@ -13,6 +13,10 @@
         margin-bottom: 30px;
         display: flex;
         border: 1px solid #ddd;
+        @include min-lg{
+            flex-direction: column;
+            align-items: center;
+        }
         @include min-xl{
             flex-direction: column;
             align-items: center;
@@ -26,9 +30,16 @@
             max-width: 110px;
             margin-right: 20px;
             transition: .3s;
+            @include min-lg{
+                margin-bottom: 23px;
+            }
+
         }
     }
     .menu-content{
+        @include min-lg{
+            text-align: center;
+        }
         h4 {
             font-size: 22px;
             border-bottom: 1px dashed #ddd;
@@ -42,6 +53,12 @@
                 float: right;
                 font-weight: 600;
                 color: #ff3636;
+                @include min-lg{
+                    float: none;
+                    font-weight: 600;
+                    color: #ff3636;
+                    margin-left: 60px;
+                }
             }
         }
         p{

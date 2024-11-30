@@ -43,6 +43,14 @@
             text-transform: capitalize;
             font-weight: 700;
             margin: 14px 0;
+            @include min-lg{
+                font-size: 18px; 
+            }
+        }
+        p{
+            @include min-lg{
+                font-size: 14px; 
+            } 
         }
         img {
             overflow: hidden;
