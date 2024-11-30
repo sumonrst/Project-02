@@ -6,6 +6,9 @@
     .single-team {
         position: relative;
         overflow: hidden;
+        @include min-lg{
+            margin-bottom: 32px;
+        }
         &:hover .image {
             transform: scale(1.1);
             transition: 1s ease;
@@ -51,6 +54,9 @@
             transform: translateY(0px);
             animation: team-shape-1 6s ease-in-out infinite;
             team-shape-image-1 { width: 100%; height: auto; }
+            @include min-lg{
+                bottom: -102px;
+            }
             @include min-xl{
                 bottom: -102px;
             }

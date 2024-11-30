@@ -1023,6 +1023,11 @@ span {
   position: relative;
   overflow: hidden;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .team-area .single-team {
+    margin-bottom: 32px;
+  }
+}
 .team-area .single-team:hover .image {
   transform: scale(1.1);
   transition: 1s ease;
@@ -1070,6 +1075,11 @@ span {
 .team-area .team-wrap .team-shape-1 team-shape-image-1 {
   width: 100%;
   height: auto;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .team-area .team-wrap .team-shape-1 {
+    bottom: -102px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   .team-area .team-wrap .team-shape-1 {
@@ -1215,14 +1225,30 @@ span {
   border-bottom: 1px dashed #ddd;
   text-transform: capitalize;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .special-menu-area .single-menu-item h4 {
+    font-size: 13px;
+  }
+}
 .special-menu-area .single-menu-item h4 span {
   float: right;
   font-weight: 700;
   font-size: 15px;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .special-menu-area .single-menu-item h4 span {
+    font-size: 11px;
+  }
+}
 .special-menu-area .single-menu-item img {
   width: 90px;
   transition: 1s ease;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .special-menu-area .single-menu-item img {
+    width: 60px;
+    height: 60px;
+  }
 }
 .special-menu-area .single-menu-item .menu-content {
   margin-left: 11px;
@@ -1241,6 +1267,12 @@ span {
   background-position: center;
   /* Special Food Shape area start */
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .special-food-area .special-food-content {
+    position: absolute;
+    z-index: 9;
+  }
+}
 @media (min-width: 1200px) and (max-width: 1400px) {
   .special-food-area .special-food-content {
     position: absolute;
@@ -1256,6 +1288,11 @@ span {
   margin: 40px 0;
   color: #fff;
   font-weight: 800;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .special-food-area .special-food-content h4 {
+    font-size: 40px;
+  }
 }
 .special-food-area .special-food-content h6 {
   font-size: 20px;
@@ -1274,6 +1311,12 @@ span {
 .special-food-area .fooed-image food-image {
   width: 100%;
   height: auto;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .special-food-area .fooed-image img {
+    width: 90%;
+    float: right;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
   .special-food-area .fooed-image img {

@@ -22,15 +22,25 @@
             font-size: 18px;
             border-bottom: 1px dashed #ddd;
             text-transform: capitalize;
+            @include min-lg{
+                font-size: 13px;
+            }
             span {
                 float: right;
                 font-weight: 700;
                 font-size: 15px;
+                @include min-lg{
+                    font-size: 11px;
+                }
             }
         }
         img {
             width: 90px;
             transition: 1s ease;
+            @include min-lg{
+                width: 60px;
+                height: 60px;
+            }
         }
         .menu-content {
             margin-left: 11px;
