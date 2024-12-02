@@ -7,23 +7,97 @@
             position: absolute;
             top: 0;
             right: 0;
+            @include min-sm{
+                display: none;
+            }
+            @include min-md{
+                display: none;
+            }
+            @include min-lg{
+                display: none;
+            }
+            @include min-xl{
+                display: none;
+            }   
+        }
+        .shape-bg-left{
+            @include min-sm{
+                display: none;
+            }
+            @include min-md{
+                display: none;
+            }
+            @include min-lg{
+                display: none;
+            }
+            @include min-xl{
+                display: none;
+            }    
         }
         .shape-top-round-1 {
             position: absolute;
             top: 102px;
             left: 181px;
             animation: shaperound-1 18s linear infinite;
+            @include min-sm{
+                display: none;
+            }
+            @include min-md{
+                display: none;
+            }
+            @include min-lg{
+                display: none;
+            }
+            @include min-xl{
+                display: none;
+            }    
         }
         .shape-top-round-2 {
             position: absolute;
             right: 216px;
             top: 86px;
             animation: shaperound-2 18s linear infinite;
+            @include min-sm{
+                display: none;
+            }
+            @include min-md{
+                display: none;
+            }
+            @include min-lg{
+                display: none;
+            }
+            @include min-xl{
+                display: none;
+            }     
         }
         .about-company-wrap {
             position: absolute;
             top: 180px;
             left: 286px;
+            @include min-sm{
+                top:0px;
+                left:0px;
+                position: inherit;
+                padding: 100px 0;
+            }
+            @include min-md{
+                top:0px;
+                left:0px;
+                position: inherit;
+                padding: 100px 0;
+            }
+            @include min-lg{
+                top:0px;
+                left:0px;
+                position: inherit;
+                padding: 100px 0;
+            }
+            @include min-xl{
+                top:0px;
+                left:0px;
+                position: inherit;
+                padding: 100px 0;
+            }
             .about-company-content {
                 text-align: center;
                 h4 {
@@ -31,15 +105,32 @@
                     line-height: 54px;
                     font-weight: 800;
                     margin: 20px 0;
+                    @include min-sm{
+                        font-size: 30px;
+                        line-height: 40px;  
+                    }
                 }
                 h5 {
                     text-transform: uppercase;
                     font-size: 20px;
                     font-weight: 700;
                     color: #ff3636;
+                    @include min-sm{
+                        font-size: 16px;
+                    }
                 }
                 p {
                     margin-bottom: 20px;
+                    @include min-sm{
+                        font-size: 12px;
+                        line-height: 22px;
+                    }
+                }
+                .btn {
+                    @include min-sm{
+                        padding: 8px 20px;
+                        font-size: 15px;
+                    }
                 }
             }
         }
