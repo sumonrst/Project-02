@@ -14,6 +14,9 @@
     .single-menu-item {
         margin-bottom: 29px;
         display: flex;
+        @include min-xs{
+            align-items: center;
+        }
         &:hover img {
             border-radius: 50%;
             transition: 1s ease;
@@ -22,6 +25,9 @@
             font-size: 18px;
             border-bottom: 1px dashed #ddd;
             text-transform: capitalize;
+            @include min-xs{
+                font-size: 15px;
+            }
             @include min-lg{
                 font-size: 13px;
             }
@@ -37,6 +43,9 @@
         img {
             width: 90px;
             transition: 1s ease;
+            @include min-xs{
+                width: 70px;
+            }
             @include min-lg{
                 width: 60px;
                 height: 60px;

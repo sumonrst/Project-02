@@ -42,6 +42,9 @@
                 font-size: 23px;
                 text-transform: capitalize;
                 font-weight: 700;
+                @include min-xs{
+                    margin-bottom: 30px;
+                }
                 @include min-sm{
                     margin: 36px 0;
                 }

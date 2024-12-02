@@ -10,6 +10,10 @@
         justify-content: space-between;
         border-radius: 20px;
         margin-bottom: 70px;
+        @include min-xs{
+          flex-direction: column;
+          row-gap: 35px;
+        }
         @include min-sm{
             flex-direction: column;
             row-gap: 35px;
@@ -26,6 +30,9 @@
                 font-size: 20px;
                 font-weight: 700;
                 text-transform: capitalize;
+                @include min-xs{
+                  font-size: 12px;
+                }
                 @include min-sm{
                   font-size: 18px;
                 }
@@ -47,6 +54,9 @@
                 display: block;
                 font-size: 15px;
                 text-transform: capitalize;
+                @include min-xs{
+                  font-size: 13px;
+                }
                 @include min-lg{
                   font-size: 14px;
                 }
@@ -90,6 +100,9 @@
         text-transform: capitalize;
         font-weight: 600;
         margin-bottom: 30px;
+        @include min-xs{
+          margin-top: 30px;
+        }
       }
       p {
         margin: 40px 0;
@@ -159,6 +172,10 @@
   .copyright{
     p {
       font-weight: 600;
+      @include min-xs{
+        font-size: 12px;
+        line-height: 18px;
+      }
     }
   }
 }

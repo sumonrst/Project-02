@@ -2,6 +2,9 @@
 	background-size: cover;
 	background-position: center;
     .special-food-content{
+        @include min-xs{
+            text-align: center;
+        }
         @include min-md{
             text-align: center;
         }
@@ -16,14 +19,22 @@
             font-size: 20px;
             color: #ff3636;
             font-weight: 700;
+            @include min-xs{
+                font-size: 17px;
+            }
         }
         h4 {
             font-size: 50px;
             margin: 40px 0;
             color: #fff;
             font-weight: 800;
+            @include min-xs{
+                font-size: 24px;
+                margin: 18px 0;
+            }
             @include min-sm{
-                line-height: 56px;
+                line-height: 0px;
+                font-size: 35px;
             }
             @include min-lg{
                 font-size: 40px;
@@ -45,6 +56,9 @@
         animation: float2 6s ease-in-out infinite;
         food-image { width: 100%; height: auto; }
         img {
+            @include min-xs{
+                display: none;
+            }
             @include min-sm{
                 display: none;
             }
@@ -74,6 +88,9 @@
             animation: shape-1  6s ease-in-out infinite;
             shape-image-1 { width: 100%; height: auto; }
             img{
+                @include min-xs{
+                    display: none;
+                }
                 @include min-sm{
                     display: none;
                 }
@@ -87,6 +104,9 @@
             animation: shape-2 6s ease-in-out infinite;
             shape-image-2 { width: 100%; height: auto;}
             img{
+                @include min-xs{
+                    display: none;
+                }
                 @include min-sm{
                     display: none;
                 }
@@ -100,6 +120,9 @@
             animation: shape-3 6s ease-in-out infinite;
             shape-image-3 { width: 100%; height: auto; }
             img{
+                @include min-xs{
+                    display: none;
+                }
                 @include min-sm{
                     display: none;
                 }

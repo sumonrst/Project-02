@@ -29,6 +29,10 @@
     .single_banner {
         position: relative;
         height: 100vh;
+        @include min-sm{
+            height: auto;
+            padding: 150px 0;
+        }
         @include min-lg{
             height: 60vh;
         }
@@ -39,6 +43,9 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            @include min-sm{
+                height: auto;
+            }
             @include min-lg{
                 height: 60vh;
             }
@@ -47,6 +54,9 @@
                 font-size: 30px;
                 text-transform: capitalize;
                 font-weight: 700;
+                @include min-sm{
+                    font-size: 20px;
+                }
                 @include min-md{
                     font-size: 26px;
                 }
@@ -56,6 +66,10 @@
                 text-transform: capitalize;
                 margin: 20px 0;
                 font-weight: 800;
+                @include min-sm{
+                    font-size: 35px;
+                    margin: 0;
+                }
                 @include min-md{
                     font-size: 50px;
                 }

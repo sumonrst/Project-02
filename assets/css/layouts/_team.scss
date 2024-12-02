@@ -6,6 +6,9 @@
     .single-team {
         position: relative;
         overflow: hidden;
+        @include min-xs{
+            margin-bottom: 25px;
+        }
         @include min-sm{
             margin-bottom: 30px;
         }
@@ -76,6 +79,9 @@
                 bottom: 0px;
             }
             img{
+                @include min-xs{
+                    display: none;
+                }
                 @include min-sm{
                     width:50%;
                 }
@@ -94,6 +100,9 @@
             transform: translateY(0px);
             animation: team-shape-2 6s ease-in-out infinite;
             team-shape-image-2 { width: 100%; height: auto; }
+            @include min-xs{
+                display: none;
+            }
             @include min-sm{
                 right: -112px;
                 top: -50px;

@@ -10,6 +10,9 @@
     }
     .about-gallery {
         position: relative;
+        @include min-xs{
+            margin-top: 30px;
+        }
         @include min-sm{
             margin-top: 50px;
         }
@@ -23,6 +26,9 @@
             border: 1px solid #ddd;
             &:nth-child(1) {
                 max-width: 480px;
+                @include min-xs{
+                    display: none;
+                }
                 @include min-lg{
                     max-width:550px;
                 }
@@ -36,6 +42,9 @@
                 right: 0;
                 left: 206px;
                 bottom: -80px;
+                @include min-xs{
+                    display: none;
+                }
                 @include min-sm{
                     max-width: 325px;
                     top: 145px;
@@ -68,6 +77,9 @@
             transform: translateY(0px);
             animation: about-shape-1 6s ease-in-out infinite;
             about-shape-image-1 { width: 100%; height: auto; }
+            @include min-xs{
+                display: none;
+            }
             @include min-xl{
                 bottom: 470px;
             }
@@ -84,6 +96,9 @@
             transform: translatex(0px);
             animation: about-shape-2 6s ease-in-out infinite;
             about-shape-image-2 { width: 100%; height: auto; }
+            @include min-xs{
+                display: none;
+            }
             @include min-xl{
             top:500px;
             }
