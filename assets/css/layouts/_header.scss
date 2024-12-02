@@ -1,5 +1,8 @@
 
 .header_area {
+    @include min-sm{
+        text-align: center;
+    }
     padding: 22px 0;
     position: fixed;
     z-index: 99;
@@ -27,6 +30,9 @@
                     font-weight: 500;
                     font-size: 18px;
                     color: #fff;
+                    @include min-sm{
+                        font-size: 16px;
+                    }
                     &.fontcolor {
                         color: #333;
                     }

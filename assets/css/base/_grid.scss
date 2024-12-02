@@ -32,6 +32,9 @@ $grid_sm_brackpoint: 576px;
     .container{
         width:540px;
     }
+    .justify-sm-center{
+        justify-content: center;
+    }
     @for $i from 1 through 12{
         .col-sm-#{$i}{
             width: (100 / 12) * $i * 1%;
@@ -42,7 +45,10 @@ $grid_sm_brackpoint: 576px;
 /* Medium Devices 720px - 768px */ 
 @media (min-width: $grid_md_brackpoint) {
     .container{
-        width:720px;
+        width:740px;
+    }
+    .justify-md-end{
+        justify-content: flex-end;
     }
     @for $i from 1 through 12{
         .col-md-#{$i}{
