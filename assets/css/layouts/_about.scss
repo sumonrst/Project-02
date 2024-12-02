@@ -10,6 +10,9 @@
     }
     .about-gallery {
         position: relative;
+        @include min-sm{
+            margin-top: 50px;
+        }
         @include min-md{
             margin-top: 50px;
         }
@@ -33,6 +36,11 @@
                 right: 0;
                 left: 206px;
                 bottom: -80px;
+                @include min-sm{
+                    max-width: 325px;
+                    top: 145px;
+                    left: 184px;
+                }
                 @include min-md{
                     max-width: 367px;
                     top: 117px;

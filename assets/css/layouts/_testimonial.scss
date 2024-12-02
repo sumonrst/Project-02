@@ -1,6 +1,11 @@
 
 .testimonial-area{
     color: #fff;
+    .title{
+        @include min-sm{
+            margin-bottom: 70px;
+        }
+    }
     .testimonial{
         .slick-dots {
             position: absolute;
@@ -37,6 +42,9 @@
                 font-size: 23px;
                 text-transform: capitalize;
                 font-weight: 700;
+                @include min-sm{
+                    margin: 36px 0;
+                }
                 span {
                     display: block;
                     font-size: 16px;

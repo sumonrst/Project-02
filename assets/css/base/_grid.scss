@@ -15,7 +15,20 @@ $grid_xxl_brackpoint: 1400px;
 $grid_xl_brackpoint: 1200px;
 $grid_lg_brackpoint: 992px;
 $grid_md_brackpoint: 768px;
+$grid_sm_brackpoint: 576px;
 
+/* Medium Devices 540px - 576px */ 
+@media (min-width: $grid_sm_brackpoint) {
+    .container{
+        width:540px;
+    }
+    @for $i from 1 through 12{
+        .col-sm-#{$i}{
+            width: (100 / 12) * $i * 1%;
+            padding: 0 15px;
+        }
+    }
+}
 /* Medium Devices 720px - 768px */ 
 @media (min-width: $grid_md_brackpoint) {
     .container{
@@ -28,6 +41,7 @@ $grid_md_brackpoint: 768px;
         }
     }
 }
+
 /* Large Devices 960px - 992px */ 
 @media (min-width: $grid_lg_brackpoint) {
     .container{
@@ -98,6 +112,11 @@ $grid_md_brackpoint: 768px;
 }
 @mixin min-md {
     @media ( min-width:$grid_md_brackpoint ) and (  max-width:$grid_lg_brackpoint){ 
+        @content;
+    }
+}
+@mixin min-sm {
+    @media ( min-width:$grid_sm_brackpoint ) and (  max-width:$grid_md_brackpoint){ 
         @content;
     }
 }

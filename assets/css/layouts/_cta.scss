@@ -7,6 +7,9 @@
         }
         h4 {
             font-size: 60px;
+            @include min-sm{
+                font-size: 25px;
+            }
             @include min-md{
                 font-size: 35px;
             }
@@ -20,6 +23,10 @@
                 display: inline-block;
                 font-size: 60px;
                 color: #ff3636;
+                @include min-sm{
+                    font-size: 25px;
+                    font-weight: 800;
+                }
                 @include min-md{
                     font-size: 35px;
                     font-weight: 800;
@@ -44,6 +51,9 @@
             .cta-dis-img-1 {
                 width: 150px;
             }
+            @include min-sm{
+                display: none;
+            }
             @include min-md{
                 display: none;
             }
@@ -55,6 +65,9 @@
             animation: cta-discount-image-2 15s linear infinite;
             .cta-dis-img-2 {
                 width: 150px;
+            }
+            @include min-sm{
+                display: none;
             }
             @include min-md{
                 display: none;
