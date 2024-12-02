@@ -10,8 +10,14 @@
         -webkit-box-shadow: 0px 3px 4.6px 0.3px rgba(0,0,0,0.25);
         -moz-box-shadow: 0px 3px 4.6px 0.3px rgba(0,0,0,0.25);
         box-shadow: 0px 3px 4.6px 0.3px rgba(0,0,0,0.25);
+        @include min-xs{
+            background-color: rgba(51, 51, 51, 0.8117647059) !important;
+        }
     }
     .header_menu{
+        @include min-xs{
+            display: none;
+        }
         ul{
             li{
                 a{
@@ -34,6 +40,42 @@
                     }
                 }
             }
+        }
+    }
+}
+
+
+
+.slicknav_menu {
+	display: none;
+    @include min-xs{
+        display: block;
+        position: fixed;
+        right: 10px;
+        z-index: 999;
+        width: 100%;
+        background-color: transparent;
+    }
+    .slicknav_nav{
+        ul{
+            background-color: #333333e0;
+        }
+        a{
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: 600; 
+            &:hover {
+                background-color: #ff3636;
+                color: #fff;
+                text-transform: capitalize;
+                font-weight: 600;
+            }  
+        }
+    }
+    .slicknav_btn{
+        @include min-xs{
+            background-color: transparent !important;
+            top:10px
         }
     }
 }

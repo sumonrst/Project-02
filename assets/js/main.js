@@ -53,6 +53,10 @@ $(document).ready(function(){
           // instead of a settings object
         ]
     });
+
+    /* Slick Nav Menu */ 
+    $('#nav').slicknav();
+
   });
 
 
